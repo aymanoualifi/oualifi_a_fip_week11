@@ -4,7 +4,7 @@
 
     function getAll($tbl) {
         include("connect.php");
-        $queryAll = "SELECT * FROM {$tbl}";
+        $queryAll = "SELECT * FROM {$}";
         $runAll = mysqli_query($link, $queryAll);
         if($runAll){
             return $runAll;

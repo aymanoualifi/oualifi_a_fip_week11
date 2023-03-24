@@ -1,94 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description">
-        <title>Homepage</title>
-    </head>
-    <body class="site">
-        <header class="head">
-            <h1 class="hidden">Homepage</h1>
-                <nav class="main-navigation" aria-label="Main Navigation">
-                    <h2 class="hidden">Main Navigation</h2>
-                    <ul class="menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="aboutus.html">About Us</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AO_FIP</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/><link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,400;0,600;1,300;1,400;1,600&family=Muli:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"rel="stylesheet"/>
+ </head>
+  <body>
+    <div class="container">
+      <div class="menu1">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+        <span>Go back</span>
+      </div>
+      <header class="header">
+        <div class="img-wrapper">
+          <img src="images/Asset 5.png" />
+        </div>
+        <div class="banner">
+          <div>
+            <img class="logo" src="images/logo_2.svg" alt="logo">
+            </div>        
+          <h1>Express your 
+            style in ink</h1>
+          <p>WITH LEGACY INK</p>
+          <button>
+            <a href="#portfolio" class="menu-link" data-content="portfolio">portfolio</a></button>
+        </div>
+      </header>
+      <section class="sidebar">
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="#" class="menu-link" data-content="Home">Home</a>
+          </li>
+          <li class="menu-item">
+            <a href="#about-us" class="menu-link" data-content="About Us">About Us</a>
+          </li>
+          <li class="menu-item">
+            <a href="#team" class="menu-link" data-content="Team"> Team</a>
+          </li>
+          <li class="menu-item">
+            <a href="#portfolio" class="menu-link" data-content="portfolio">portfolio</a>
+          </li>
+          <li class="menu-item">
+            <a href="#contact" class="menu-link" data-content="Contact">Contact</a>
+          </li>
+        </ul>
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </section>
+      <section id="about-us">
+        <div class="section-header">
+          <h1 class="section-heading">About Us</h1>
+          <div class="underline"></div>
+              <video
+               width="1920" height="750" loop autoplay muted  >
+                <source src="/video/tattoo.mp4" type="video/mp4"></video>
+                <h2 class="section-header2">Our services</h2>
+        </div>
+        <div id="cards-wrapper">
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="images/piercing (1).jpg" alt="CEO" />
             </div>
-        </header>
-        <main class="main">
-            <section class="hero">
-                <h2 class="hidden">Hero Content</h2>
-                <div class="video-container">
-                    <h2 class="hidden">Video</h2>
-                    <video src="video/promotion_video.mp4" controls>
-                    </video>
-                </div>
-                <div class="hero-content">
-                    <h2 class="hero-heading">Lorem ipsum dolor.</h2>
-                    <h3 class="hero-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed
-                        lectus.</h3>
-                    <button id="btn1">Lorem ipsum.</button>
-                    <button id="btn2">Lorem ipsum.</button>
-                </div>
-                <div class="social-media-icons">
-                    <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-                    <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
-                    <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
-                    <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
-                </div>
-            </section>
-            <article class="about-disconnected">
-                <h2 class="about-disconnected-heading">Lorem ipsum dolor.</h2>
-                <h3 class="disconnected-hashtag">#Lorem ipsum dolor.</h3>
-                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque laoreet non
-                    sapien ac
-                    aliquam. Nunc quis malesuada
-                    sapien, sed dictum dolor. Quisque laoreet dui nunc, non dictum nunc aliquam nec. Fusce tempor
-                    ullamcorper sem id
-                    imperdiet. Maecenas purus urna, ullamcorper ac ultrices id, volutpat convallis felis. Duis ultrices
-                    in dolor.
-                </p>
-                <button id="btn3">Lorem ipsum.</button>
-                <img src="https://via.placeholder.com/200" alt="About us image">
-            </article>
-        </main>
-        <footer class="foot">
-            <section class="follow-us">
-                <h2 class="hidden">Follow us on Social Media</h2>
-                <div class="social-media-links">
-                    <h2 class="follow-us-heading">Lorem ipsum.</h2>
-                    <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-                    <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
-                    <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
-                    <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
-                    <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
-                </div>
-            </section>
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="https://via.placeholder.com/200" alt="Logo" class="footer-logo">
-                </div>
-                <div class="footer-links">
-                    <h2 class="hidden">Footer Links</h2>
-                    <ul class="footer-links-1">
-                        <li class="heading">Lorem ipsum</li>
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>
-                        <li><a href="#">Link 4</a></li>
-                    </ul>
-            </div>
-        </footer>
-        <script src=" https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-        <script src="js/gsap.js"></script>
-        <script src="js/main.js" type="module" defer></script>
-    </body>
+            <div class="card-info">
+              <h2>piercing</h2>
+              <div class="lightbox">
+                <img src="images/piercing (1).jpg" alt="CEO" />
+              </div>
 
+            </div>
+          </div>
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img class="ann" src="images/tattoo.jpg" alt="Artist" />
+            </div>
+            <div class="card-info">
+              <h2>tattoo</h2>
+            </div>
+          </div>
+          </div>
+    <div class="section-header2">
+      <p> legacy ink represents considerable authority in custom tattoos of all shapes and sizes outside a “conventional” tattoo shop condition. Our specialists in all offer a wide assortment of styles.<br>
+
+        Regardless of whether you come in with an obscure thought or a got-done with illustration, we will work with you to make your tattoo vision a reality. <br>we trust that tattoos are something beyond ink on the skin. they can be both celebratory and mending and are a lasting method to remember our lives.
+        
+        We are focused on giving a peaceful, agreeable, private, inviting space for our customers to get inked.<br>
+        Established with the aim of maximizing profits in the body piercing & tattoo artists industry.<br>
+         We want to compete favorably in Canada which is why we have but in place a competent team that will ensure that every body piercing, tattoo design meets and even surpass our customers’ expectations.<br>
+      </p>
+        <h2 class="section-header2">Our mission</h2>
+        <p>Our vision is to build a body piercing and tattoo studio that will be a common name in Ontario. <br>
+          Our mission is to provide professional body piercing and tattoo services and other related services<br>
+           to individuals. We want to build a body piercing studio that can favorably compete with other leading brands in the industry.
+          </p>
+    </div>
+      
+      </section>
+      <section id="team">
+      <section class="team">
+        <div class="section-header">
+          <h1 class="section-heading">Our Team</h1>
+          <div class="underline"></div>
+        </div>
+        <div id="cards-wrapper">
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img src="images/person-1.jpg" alt="CEO" />
+            </div>
+            <div class="card-info">
+              <h2>Ayman</h2>
+              <h3>tattoo Artist</h3>
+              <p>description      </p>
+              <button id="lightboxButton">Read More</button>
+
+              <div class="lightbox">
+                <img src="images/person-1.jpg" alt="CEO" />
+                <button class="close-lightbox">Close</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" data-tilt>
+            <div class="card-img-wrapper">
+              <img class="ann" src="images/person-2.jpg" alt="Artist" />
+            </div>
+            <div class="card-info">
+              <h2>oualifi</h2>
+              <h3>piercer</h3>
+              <p>description </p>
+              <button>Read More</button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  <section id="portfolio">
+    <div class="section-header3">
+      <h1 class="section-heading">Portfolio</h1>
+      <div class="underline"></div>
+    </div>
+  <div class="row">
+    <div class="column">
+      <img src="images/tat1.jpg">
+      <img src="images/tat2.jpg">
+      <img src="images/tat3.jpg">
+      <img src="images/tat4.jpg">
+      <img src="images/tat5.jpg">
+      <img src="images/tat12.jpg">
+    </div>
+    <div class="column">
+      <img src="images/tat6.jpg">
+      <img src="images/tat7.jpg">
+      <img src="images/tat8.jpg">
+      <img src="images/tat9.jpg">
+      <img src="images/tat10.jpg">
+      <img src="images/tat11.jpg">
+    </div>
+  </div>
+</section>
+      <section id="contact">
+        <div class="contact-wrapper">
+          <div class="contact-left"></div>
+          <div class="contact-right">
+            <h1 class="contact-heading">Contact</h1>
+            <form>
+              <div class="input-group">
+                <input type="text" class="field" />
+                <label class="input-label">Full Name</label>
+              </div>
+              <div class="input-group">
+                <input type="email" class="field" />
+                <label class="input-label">Email</label>
+              </div>
+              <div class="input-group">
+                <textarea class="field"></textarea>
+                <label class="message">Message</label>
+              </div>
+              <input type="submit" class="submit-btn" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-content">
+         
+          <div class="social-list">
+            <a href="#"><i class="fab fa-facebook-f"><p>follow us on facebook</p></i></a>
+            <a href="#"><i class="fab fa-instagram"><p>follow us on instagram</p></i></a>
+            <a href="#"><i class="fab fa-twitter"><p>follow us on twitter</p></i></a>
+          </div>
+        </div>
+      </footer>
+      <a href="#" class="scroll-btn">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+
+    <script src="js/lightBox.js"></script>
+
+    <script src="js/main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="js/tilt.js"></script> -->
+  </body>
 </html>

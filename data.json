@@ -1,0 +1,20 @@
+{
+    "ayman": {
+        "id": "1",
+        "name": "ayman",
+        "title": "tattoo artist",
+        "description": "description of the artist",
+        "image": ""
+    },
+
+    "oualifi": {
+        "id": "2",
+        "name": "oualifi",
+        "title": "piercer",
+        "description": "description of the artist",
+        "image": ""
+    }
+
+    
+  }
+  
