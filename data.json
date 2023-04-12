@@ -1,18 +1,18 @@
 {
-    "ayman": {
+    "alex york": {
         "id": "1",
-        "name": "ayman",
-        "title": "tattoo artist",
-        "description": "description of the artist",
-        "image": ""
+        "name": "alex york",
+        "title": "piercer",
+        "description": "Alex is the owner and operator of Legacy Ink. He began his piercing career in 1997 with a full apprenticeship. He learned the importance of continuing education in the body piercing field. This inspired him to participate at the Annual Association of Professional Piercers convention/seminar.",
+        "image": "alex.jpg"
     },
 
-    "oualifi": {
+    "david allen": {
         "id": "2",
-        "name": "oualifi",
-        "title": "piercer",
-        "description": "description of the artist",
-        "image": ""
+        "name": "david allen",
+        "title": "tattoo artist",
+        "description": "he is a multidisciplinary artist from London, Canada who has a flair for creating eccentric tattoos in the most vivid mix of dark and bright colours. He started his artistic journey with graphic design to eventually transition to tattooing back in 2012.",
+        "image": "david.jpg"
     }
 
     
