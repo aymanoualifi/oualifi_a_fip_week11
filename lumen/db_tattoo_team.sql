@@ -41,7 +41,7 @@ CREATE TABLE `contact_form` (
 -- Table structure for table `team`
 --
 
-CREATE TABLE `teams` (
+CREATE TABLE `team` (
   `id` int(11) NOT NULL,
   `fname` varchar(50) NOT NULL,
   `lname` varchar(50) NOT NULL,
@@ -54,10 +54,9 @@ CREATE TABLE `teams` (
 -- Dumping data for table `team`
 --
 
-INSERT INTO `teams` (`id`, `fname`, `lname`, `title`, `story`, `image`) VALUES
-(1, 'John', 'Smith', 'Artist', 'John is a tattoo artist and illustrator based in London ON. John’s passion for drawing emerged when he was very young through a love of comic books and fantasy art\n', 'person-1.jpg'),
-(2, 'Ann ', 'Brown', 'Artist', 'Ann has spent 10 years working as a professional artist, and has been tattooing is 2015. His background is in illustration, technical, and graphic design, and these disciplines inform how he approaches her work as a tattoo artist.\r\n', 'person-2.jpg'),
-(3, 'Mary', 'Doe', 'Artist', 'Mary Doe, originally a Boston-based artist now tattooing at the world\'s famous Royal Tattoo in Helsingr, Denmark. Mary is an artist of great talent and imagination and is one of the new generations of Realist painters that are the new avant-garde in the art world\r\n', 'person-3.jpg');
+INSERT INTO `team` (`id`, `fname`, `lname`, `title`, `story`, `image`) VALUES
+(1, 'alex', 'york', 'tattoo Artist', 'Alex is the owner and operator of Legacy Ink. He began his piercing career in 1997 with a full apprenticeship. He learned the importance of "continuing education" in the body piercing field. This inspired him to participate at the Annual Association of Professional Piercers convention/seminar.\n', 'alex.jpg'),
+(2, 'david ', 'allen', 'piercer', ' he is a multidisciplinary artist from London, Canada who has a flair for creating eccentric tattoos in the most vivid mix of dark and bright colours. He started his artistic journey with graphic design to eventually transition to tattooing back in 2012.\r\n', 'david.jpg'),
 
 --
 -- Indexes for dumped tables
