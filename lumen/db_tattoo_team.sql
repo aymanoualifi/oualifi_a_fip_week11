@@ -37,6 +37,7 @@ CREATE TABLE `contact_form` (
 
 -- --------------------------------------------------------
 
+
 --
 -- Table structure for table `team`
 --
@@ -56,7 +57,7 @@ CREATE TABLE `team` (
 
 INSERT INTO `team` (`id`, `fname`, `lname`, `title`, `story`, `image`) VALUES
 (1, 'alex', 'york', 'tattoo Artist', 'Alex is the owner and operator of Legacy Ink. He began his piercing career in 1997 with a full apprenticeship. He learned the importance of "continuing education" in the body piercing field. This inspired him to participate at the Annual Association of Professional Piercers convention/seminar.\n', 'alex.jpg'),
-(2, 'david ', 'allen', 'piercer', ' he is a multidisciplinary artist from London, Canada who has a flair for creating eccentric tattoos in the most vivid mix of dark and bright colours. He started his artistic journey with graphic design to eventually transition to tattooing back in 2012.\r\n', 'david.jpg'),
+(2, 'david ', 'allen', 'piercer', ' e is a multidisciplinary artist from London, Canada who has a flair for creating eccentric tattoos in the most vivid mix of dark and bright colours. He started his artistic journey with graphic design to eventually transition to tattooing back in 2012.\r\n', 'david.jpg'),
 
 --
 -- Indexes for dumped tables
